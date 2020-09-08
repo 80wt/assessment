@@ -49,12 +49,12 @@ assessmentButton.onclick = ()=>{
 
     //widgets.jsの設定
     const script = document.createElement('script');
-    script.setAttribute('src', "https://platform.twitter.com/widgets.js");
+    script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
     tweetDivided.appendChild(script);
   
 } 
 const answers = [
-    
+    '{userName}のいいところは声です。{userName}の特徴的な声はみなを惹きつけ、心に残ります。',
     '{userName}のいいところはまなざしです。{userName}に見つめられた人は、気になって仕方がないでしょう。',
     '{userName}のいいところは情熱です。{userName}の情熱に周りの人は感化されます。',
     '{userName}のいいところは厳しさです。{userName}の厳しさがものごとをいつも成功に導きます。',
